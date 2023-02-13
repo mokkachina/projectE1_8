@@ -42,13 +42,18 @@
     font-size: 20px;
     color: rgb(4, 4, 4);
     writing-mode:horizontal-tb;
+    float: left;
 }
 .box {
     inline-size: 1000px;
     writing-mode: horizontal-tb;
   }
 img{
-    float: inline-end;
+    float: left;
     margin-inline-end: 10px;
     margin-block-end: 10px;
   }
+.left-img{
+    float:left;
+    margin: 7px 7px 7px 0;
+   }
